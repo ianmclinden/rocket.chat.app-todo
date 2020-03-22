@@ -16,6 +16,18 @@ To install ToDo on your Rocket.Chat server, you have to turn on the setting `Ena
 
 Then you can then upload a release .zip from the [Releases Page](https://github.com/ianmclinden/rocket.chat.app-todo/releases/latest).
 
+### Styling Workaround
+
+The default Rocket.Chat styling for attachment buttons limits the maximum width to 220 pixels. To prevent Rocket.Chat from truncating todo list items, you can add a custom style rule.
+
+Go to `Admin > Layout > Custom CSS` and add a custom style to increase the max width: 
+
+```css
+.attachment .text-button {
+    max-width: 1024px;
+}
+```
+
 ## Usage
 
 Use the slash command to create a todo list:
@@ -26,7 +38,12 @@ Use the slash command to create a todo list:
 
 The following todo list will be created:
 
-![ToDo List](https://user-images.githubusercontent.com/8931381/77243183-5797e580-6bd5-11ea-8153-4d7fde0ae2c2.png)
+![Todo list](https://user-images.githubusercontent.com/8931381/77254108-04ea1800-6c2d-11ea-8e2f-d6a788ae6522.png)
+
+After an item is complete, you can click the item to check it off the list. For example:
+
+![Todo list completion](https://user-images.githubusercontent.com/8931381/77254109-0582ae80-6c2d-11ea-912e-76f3363627b7.png)
+
 
 ## Contributing
 
