@@ -1,0 +1,11 @@
+{
+    "cmd_todo_desc": "Create a todo list",
+    "cmd_todo_example": "\"List Name\" \"First item\" \"Second item\" \"Third item\" ...",
+    "cmd_complete_desc": "Complete a todo item",
+    "cmd_complete_example": "UUID index",
+    "setting_use_user_name_label": "Use full name",
+    "setting_use_user_name_desc": "When checked, display completion by by full names instead of @name",
+    "setting_collapse_on_complete_label": "Collapse when complete",
+    "setting_collapse_on_complete_desc": "When checked, collapse the todo list after every item is completed"
+}
+

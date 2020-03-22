@@ -1,0 +1,15 @@
+{
+    "id": "6ba60400-5802-4f2b-ac57-df5d90c069a8",
+    "version": "1.0.0",
+    "requiredApiVersion": "^1.4.0",
+    "iconFile": "icon.png",
+    "author": {
+        "name": "Ian McLinden",
+        "homepage": "https://www.github.com/ianmclinden",
+        "support": "https://www.github.com/ianmclinden/rocket.chat.app-todo"
+    },
+    "name": "ToDo",
+    "nameSlug": "todo",
+    "classFile": "ToDoApp.ts",
+    "description": "Create collaborative todo lists that track completion"
+}
