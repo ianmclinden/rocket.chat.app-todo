@@ -16,6 +16,18 @@ To install ToDo on your Rocket.Chat server, you have to turn on the setting `Ena
 
 Then you can then upload a release .zip from the [Releases Page](https://github.com/ianmclinden/rocket.chat.app-todo/releases/latest).
 
+### Styling Workaround
+
+The default Rocket.Chat styling for attachment buttons limits the maximum width to 220 pixels. To prevent Rocket.Chat from truncating todo list items, you can add a custom style rule.
+
+Go to `Admin > Layout > Custom CSS` and add a custom style to increase the max width: 
+
+```css
+.attachment .text-button {
+    max-width: 1024px;
+}
+```
+
 ## Usage
 
 Use the slash command to create a todo list:
